@@ -1,14 +1,20 @@
 import React, {Component} from 'react';
 import Navbar from './Navbar';
-import AvatarForm from './CreateAvatarForm';
 
 class Landing extends Component {
     render () {
         return (
-        <div className="mainContainer">
-            <div className='navBar'> <Navbar/> </div>
-            <div className='avatarForm'> <AvatarForm/> </div>
-        </div>
+            <div className='navBar'>
+                <Navbar />
+            </div>,
+            <div className ='landingPage'>
+                <body>
+                    <p>
+                        I am the landing page body!!
+                        I will eventually contain a video of a game!!!
+                    </p>
+                </body>
+            </div>
         )
     }
 }
