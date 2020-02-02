@@ -1,19 +1,15 @@
-import React, {Component} from 'react';
-import Navbar from './Navbar';
+import React, { Component } from 'react';
+
 
 class Landing extends Component {
     render () {
         return (
-            <div className='navBar'>
-                <Navbar />
-            </div>,
             <div className ='landingPage'>
-                <body>
-                    <p>
-                        I am the landing page body!!
-                        I will eventually contain a video of a game!!!
-                    </p>
-                </body>
+
+                <p>
+                    I am the landing page body!!
+                    I will eventually contain a video of a game!!!
+                </p>
             </div>
         )
     }

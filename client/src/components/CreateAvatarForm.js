@@ -26,20 +26,18 @@ class AvatarForm extends Component {
 
     render () {
         return (
-            <div className ="formContainer">
-                <div className="newAvatarForm">
-                    <form onSubmit = {this.handleSubmit}>
-                        <label>
-                            Name:
-                            <input type='text' placeholder= 'Name' value= {this.name} onChange= {this.handleName} />
-                        </label>
-                        <label>
-                            Level:
-                            <input type='number' value= {this.value} onChange= {this.handleLevel} />
-                        </label>
-                        <input type='submit' value='I am the Submit Button' />
-                    </form>
-                </div>
+            <div className="newAvatarForm">
+                <form onSubmit = {this.handleSubmit}>
+                    <label>
+                        Name:
+                        <input type='text' placeholder= 'Name' value= {this.name} onChange= {this.handleName} />
+                    </label>
+                    <label>
+                        Level:
+                        <input type='number' value= {this.value} onChange= {this.handleLevel} />
+                    </label>
+                    <input type='submit' value='I am the Submit Button' />
+                </form>
             </div>
         )
     }

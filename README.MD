@@ -20,10 +20,10 @@
 
 
 ## TODO
-- [ ] Basic navbar with minimal styling for production
-- [ ] Setup front-end routes to link pages together for easier navigation
-- [ ] Create Login page 
+- [x] Setup front-end routes to link pages together for easier navigation
+- [x] Create Login page 
 - [ ] Add Bulma styling to client side
+- [ ] Basic navbar with minimal styling for production
 - [ ] Basic layout of Landing, Form, Login, and About pages
 - [ ] Tie form submition to the create request of the backend
 - [ ] Create .env dev environment
